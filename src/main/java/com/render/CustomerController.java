@@ -13,10 +13,10 @@ public class CustomerController {
 	@GetMapping
 	public List<Customer> findAllCustomers() {
 		List<Customer> list = Arrays.asList(
-				new Customer(1L, "john", "doe", "john@javawhizz.com"),
-				new Customer(2L, "mary", "public", "mary@javawhizz.com"),
-				new Customer(3L, "elon", "musk", "elon@javawhizz.com"),
-				new Customer(4L, "dunny", "duncan", "dunny@javawhizz.com"),
+				new Customer(1L, "Avigail", "doe", "john@javawhizz.com"),
+				new Customer(2L, "Ariel", "public", "mary@javawhizz.com"),
+				new Customer(3L, "Odel", "musk", "elon@javawhizz.com"),
+				new Customer(4L, "Itamar", "duncan", "dunny@javawhizz.com"),
 				new Customer(5L, "Shabtay", "Shalem", "dunny@javawhizz.com"),
 				new Customer(6L, "Karin", "Shalem", "dunny@javawhizz.com"));
 		return list;
