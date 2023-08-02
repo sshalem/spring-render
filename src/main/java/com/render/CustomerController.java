@@ -16,7 +16,8 @@ public class CustomerController {
 				new Customer(1L, "Avigail", "doe", "john@javawhizz.com"),
 				new Customer(2L, "Ariel", "public", "mary@javawhizz.com"),
 				new Customer(3L, "Odel", "musk", "elon@javawhizz.com"),
-				new Customer(4L, "Itamar", "duncan", "dunny@javawhizz.com"));
+				new Customer(4L, "Itamar", "duncan", "dunny@javawhizz.com"),
+				new Customer(5L, "Family", "duncan", "dunny@javawhizz.com"));
 		return list;
 	}
 }
